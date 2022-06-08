@@ -3,6 +3,7 @@
     // cached version of 'mcr.microsoft.com/vscode/devcontainers/universal'
     // Declaring a specific version means it might not be cached, and thus needs to be pulled (Taking a bit of time!)
     "name": "ct-codespaces",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:2"
     "extensions": [
         "GitHub.codespaces",
         "ms-python.python",
