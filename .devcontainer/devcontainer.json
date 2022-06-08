@@ -14,5 +14,8 @@
     "features": {
         "powershell": "latest"
     },
-    "onCreateCommand": "onCreateCommand.ps1"
+    "onCreateCommand": [
+        "pwsh",
+        ".devcontainer/onCreateCommand.ps1"
+    ]
 }
