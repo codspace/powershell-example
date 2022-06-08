@@ -14,5 +14,5 @@
     "features": {
         "powershell": "latest"
     },
-    "onCreateCommand": "onCreateCommand.ps"
+    "onCreateCommand": "onCreateCommand.ps1"
 }
