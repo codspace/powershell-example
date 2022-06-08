@@ -12,7 +12,7 @@
         "ms-vscode.azurecli"
     ],
     "features": {
-        "powershell": "latest"
+        "microsoft/vscode-dev-containers/powershell": "latest"
     },
     "onCreateCommand": [
         "sudo",
