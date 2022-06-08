@@ -1,0 +1,18 @@
+{
+    // No image/dockerfile in Codespaces implicitly uses the latest
+    // cached version of 'mcr.microsoft.com/vscode/devcontainers/universal'
+    // Declaring a specific version means it might not be cached, and thus needs to be pulled (Taking a bit of time!)
+    "name": "ct-codespaces",
+    "extensions": [
+        "GitHub.codespaces",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "github.copilot",
+        "mhutchie.git-graph",
+        "ms-vscode.azurecli"
+    ],
+    "features": {
+        "powershell": "latest"
+    },
+    "onCreateCommand": "onCreateCommand.ps"
+}
