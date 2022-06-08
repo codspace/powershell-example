@@ -12,17 +12,16 @@
         "ms-vscode.azurecli"
     ],
     // (1)
-    "build": {
-        "dockerfile": "expanded.Dockerfile"
-    }
+    // "build": {
+    //     "dockerfile": "expanded.Dockerfile"
+    // }
     // (2)
-    //,
-    // "features": {
-    //     "powershell": "latest"
-    // },
-    // "onCreateCommand": [
-    //     "sudo",
-    //     "pwsh",
-    //     ".devcontainer/onCreateCommand.ps1"
-    // ]
+    "features": {
+        "powershell": "latest"
+    },
+    "onCreateCommand": [
+        "sudo",
+        "pwsh",
+        ".devcontainer/onCreateCommand.ps1"
+    ]
 }
