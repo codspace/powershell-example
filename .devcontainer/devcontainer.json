@@ -11,11 +11,6 @@
         "mhutchie.git-graph",
         "ms-vscode.azurecli"
     ],
-    // (1)
-    // "build": {
-    //     "dockerfile": "expanded.Dockerfile"
-    // }
-    // (2)
     "features": {
         "powershell": "latest"
     },
